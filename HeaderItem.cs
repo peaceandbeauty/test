@@ -19,7 +19,7 @@ public class HeaderItem : UIWidgetBase
     private CanvasGroup mTitleCanvasGroup; // 文字的canvas group;
     private Canvas _canvas;
 
-    protected override void OnInitialize(params object[] args) {
+    protected override void OnInitialize(params object[] args) {22
         base.OnInitialize(args);
         mSelectedTrans = widget.Transform(cSelect);
         mUnselectedTrans = widget.Transform(cUnselect);
