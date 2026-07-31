@@ -47,7 +47,7 @@ public class HeaderItem : UIWidgetBase
     public void ToggleSelect(bool selected) {
         mSelectedTrans.gameObject.SetActive(selected);
         //mSelectedText.gameObject.SetActive(selected);
-        mTitleCanvasGroup.alpha = selected ? 1 : 0;
+        mTitleCanvasGroup.alpha = selected ? 1 : 0; 111
         mUnselectedTrans.gameObject.SetActive(!selected);
     }
 
