@@ -24,7 +24,7 @@ public class HeaderItem : UIWidgetBase
         mSelectedTrans = widget.Transform(cSelect);
         mUnselectedTrans = widget.Transform(cUnselect);
         mSelectedText = widget.TextTMP(widget.Transform("title"));
-        mUnselectedText = widget.TextTMP(widget.Transform("unselected/title"));
+        mUnselectedText = widget.TextTMP(widget.Transform("unselected/title"));222
         mButton = widget.Button(transform);
         mTitleAnimation = mSelectedText.transform.GetComponent<Animation>();
         mTitleCanvasGroup = mSelectedText.transform.GetComponent<CanvasGroup>();111
@@ -35,7 +35,7 @@ public class HeaderItem : UIWidgetBase
     public void SetTitleLayer(int layer, int sortingOrder) {
         if (_canvas != null) {
             _canvas.overrideSorting = true;
-            _canvas.sortingOrder = sortingOrder + 1;
+            _canvas.sortingOrder = sortingOrder + 1;111
             _canvas.sortingLayerID = layer;    
         }
     }
