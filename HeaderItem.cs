@@ -27,7 +27,7 @@ public class HeaderItem : UIWidgetBase
         mUnselectedText = widget.TextTMP(widget.Transform("unselected/title"));
         mButton = widget.Button(transform);
         mTitleAnimation = mSelectedText.transform.GetComponent<Animation>();
-        mTitleCanvasGroup = mSelectedText.transform.GetComponent<CanvasGroup>();
+        mTitleCanvasGroup = mSelectedText.transform.GetComponent<CanvasGroup>();111
         _canvas = mSelectedText.transform.GetComponent<Canvas>();
         mSelectedText.SetActive(true);111
     }
