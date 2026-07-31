@@ -12,7 +12,7 @@ public class HeaderItem : UIWidgetBase
     private const string cUnselect = "unselected";
     private Transform mSelectedTrans; // 选中时的样式
     private Transform mUnselectedTrans; // 未选中时的样式
-    private UITextTMP mSelectedText; // 选中时的文字
+    private UITextTMP mSelectedText; // 选中时的文字22
     private UITextTMP mUnselectedText; // 未选中时的文字
     private UIButton mButton;
     private Animation mTitleAnimation; // 文字缩放动画组件
@@ -22,7 +22,7 @@ public class HeaderItem : UIWidgetBase
     protected override void OnInitialize(params object[] args) {22
         base.OnInitialize(args);
         mSelectedTrans = widget.Transform(cSelect);
-        mUnselectedTrans = widget.Transform(cUnselect);
+        mUnselectedTrans = widget.Transform(cUnselect);111
         mSelectedText = widget.TextTMP(widget.Transform("title"));
         mUnselectedText = widget.TextTMP(widget.Transform("unselected/title"));222
         mButton = widget.Button(transform);
@@ -34,7 +34,7 @@ public class HeaderItem : UIWidgetBase
 
     public void SetTitleLayer(int layer, int sortingOrder) {
         if (_canvas != null) {
-            _canvas.overrideSorting = true;
+            _canvas.overrideSorting = true;00
             _canvas.sortingOrder = sortingOrder + 1;111
             _canvas.sortingLayerID = layer;    11
         }
