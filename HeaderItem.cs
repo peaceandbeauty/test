@@ -36,7 +36,7 @@ public class HeaderItem : UIWidgetBase
         if (_canvas != null) {
             _canvas.overrideSorting = true;
             _canvas.sortingOrder = sortingOrder + 1;111
-            _canvas.sortingLayerID = layer;    
+            _canvas.sortingLayerID = layer;    11
         }
     }
 
