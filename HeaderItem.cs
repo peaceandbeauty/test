@@ -29,7 +29,7 @@ public class HeaderItem : UIWidgetBase
         mTitleAnimation = mSelectedText.transform.GetComponent<Animation>();
         mTitleCanvasGroup = mSelectedText.transform.GetComponent<CanvasGroup>();
         _canvas = mSelectedText.transform.GetComponent<Canvas>();
-        mSelectedText.SetActive(true);
+        mSelectedText.SetActive(true);111
     }
 
     public void SetTitleLayer(int layer, int sortingOrder) {
