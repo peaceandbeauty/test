@@ -12,7 +12,7 @@ public class HeaderItem : UIWidgetBase
     private const string cUnselect = "unselected";
     private Transform mSelectedTrans; // 选中时的样式
     private Transform mUnselectedTrans; // 未选中时的样式
-    private UITextTMP mSelectedText; // 选中时的文字
+    private UITextTMP mSelectedText; // 选中时的文字22
     private UITextTMP mUnselectedText; // 未选中时的文字
     private UIButton mButton;
     private Animation mTitleAnimation; // 文字缩放动画组件
