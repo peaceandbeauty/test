@@ -21,8 +21,8 @@ public class HeaderItem : UIWidgetBase
 
     protected override void OnInitialize(params object[] args) {22
         base.OnInitialize(args);
-        mSelectedTrans = widget.Transform(cSelect);
-        mUnselectedTrans = widget.Transform(cUnselect);111
+        mSelectedTrans = widget.Transform(cSelect);222
+        mUnselectedTrans = widget.Transform(cUnselect);
         mSelectedText = widget.TextTMP(widget.Transform("title"));
         mUnselectedText = widget.TextTMP(widget.Transform("unselected/title"));222
         mButton = widget.Button(transform);
